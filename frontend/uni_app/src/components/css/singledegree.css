@@ -1,0 +1,38 @@
+.single-degree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px; /* Update this line */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  .single-degree .degree-name {
+    color: #3f51b5;
+  }
+  
+  .single-degree .degree-shortcode {
+    margin-bottom: 10px;
+    color: #3f51b5;
+  }
+  
+  .single-degree .cohorts-list {
+    color: #3f51b5;
+    margin-bottom: 20px;
+  }
+  
+  .single-degree ul {
+    padding-left: 20px;
+  }
+  
+  .single-degree li {
+    color: #3f51b5;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,95 @@
+.setgrade-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.setgrade-container h1 {
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+.setgrade-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.setgrade-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #3f51b5;
+}
+
+.setgrade-container select,
+.setgrade-container input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f4f4f4;
+  color: #3f51b5;
+}
+
+.setgrade-container button[type="submit"],
+.setgrade-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3f51b5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.setgrade-container button[type="submit"]:hover,
+.setgrade-container button:hover {
+  background-color: #2c3e50;
+}
+
+.setgrade-container button:last-child {
+  margin-top: 20px;
+}
+
+.alert-container {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MuiStack-root {
+  width: 100%;
+}
+
+.MuiAlert-root {
+  width: 100%;
+}
+
+.MuiAlert-icon {
+  padding-right: 8px;
+}
+
+.MuiAlert-action {
+  margin-left: auto;
+  margin-right: -8px;
+}
+
+.MuiIconButton-root {
+  color: #fff;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
